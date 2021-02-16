@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap);
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none
+
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+.app {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image: url("https://desktop.github.com/images/star-bg.svg"), linear-gradient(rgb(25, 28, 32), rgb(36, 41, 46) 15%);
+
+}
+.app_wrapper {
+    max-width: 1224px;
+    width: 94%;
+    margin: auto;
+    height: 600px;
+    background-color: #263238;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.CodeMirror {
+    font-family: 'Fira Code', monospace !important;
+    height: calc(600px  - 80px) !important;
+    width: 100% !important;
+}

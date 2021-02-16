@@ -1,0 +1,53 @@
+.tool_bar_container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: scroll !important;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .tool_bar_container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .language_selector_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 20px;
+    div {
+      border: 1px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+      width: 25px;
+      height: 25px;
+      margin-left: 5px;
+      margin-right: 5px;
+      background-position: center;
+      background-size: cover;
+  
+      @media screen and (max-width: 360px) {
+        margin-left: 3px;
+        margin-right: 3px;
+      }
+    }
+  
+    .mobile_language_toggle {
+  
+    }
+    .active {
+      border-color: #77ee77;
+      border-width: 3px;
+    }
+  }
+  
+  .title_bar_actions {
+    display: flex;
+    justify-content: center;
+  }
+  
