@@ -5,7 +5,7 @@ code beautifier is a online code formatter build upon react.
 
 First of all clone the project:
 ```bash
-$ https://github.com/asyncnavi/code-beautifier.git
+$ git clone https://github.com/asyncnavi/code-beautifier.git
 ```
 then install node modules:
 ```bash
